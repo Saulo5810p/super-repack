@@ -1,0 +1,88 @@
+Slot 0:
+Metadata version: 10.0
+Metadata size: 744 bytes
+Metadata max size: 65536 bytes
+Metadata slot count: 2
+Header flags: none
+Partition table:
+------------------------
+  Name: system
+  Group: group_basic
+  Attributes: readonly
+  Extents:
+    0 .. 4139311 linear super 2048
+------------------------
+  Name: odm
+  Group: group_basic
+  Attributes: readonly
+  Extents:
+    0 .. 2655 linear super 4143104
+------------------------
+  Name: product
+  Group: group_basic
+  Attributes: readonly
+  Extents:
+    0 .. 3550639 linear super 4147200
+------------------------
+  Name: system_dlkm
+  Group: group_basic
+  Attributes: readonly
+  Extents:
+    0 .. 679 linear super 7698432
+------------------------
+  Name: vendor
+  Group: group_basic
+  Attributes: readonly
+  Extents:
+    0 .. 2374191 linear super 7700480
+------------------------
+  Name: vendor_dlkm
+  Group: group_basic
+  Attributes: readonly
+  Extents:
+    0 .. 679 linear super 10076160
+------------------------
+Super partition layout:
+------------------------
+super: 2048 .. 4141360: system (4139312 sectors)
+super: 4143104 .. 4145760: odm (2656 sectors)
+super: 4147200 .. 7697840: product (3550640 sectors)
+super: 7698432 .. 7699112: system_dlkm (680 sectors)
+super: 7700480 .. 10074672: vendor (2374192 sectors)
+super: 10076160 .. 10076840: vendor_dlkm (680 sectors)
+------------------------
+Block device table:
+------------------------
+  Partition name: super
+  First sector: 2048
+  Size: 12582912000 bytes
+  Flags: none
+------------------------
+Group table:
+------------------------
+  Name: default
+  Maximum size: 0 bytes
+  Flags: none
+------------------------
+  Name: group_basic
+  Maximum size: 12578717696 bytes
+  Flags: none
+------------------------
+
+=========== INFORMACOES ADICIONAIS (super_repack) ===========
+Rotulo: SUPER REMONTADA
+Arquivo: /data/data/com.termux/files/home/mod.img
+Formato: SPARSE (3072000 blocos de 4096 bytes = 12582912000 bytes)
+Tamanho do arquivo em disco: 5042971468 bytes
+Geometria: logical_block_size=4096 metadata_max_size=65536 slots=2
+Alinhamento: 1048576 bytes (2048 setores) | deslocamento: 0 bytes
+Primeiro setor utilizavel: 2048 | tamanho da super: 12582912000 bytes
+
+Imagens internas (particoes):
+nome                   bytes        MiB   setor_ini       byte_ini  alinhada  sha256
+system            2119327744   2021.148        2048        1048576  sim       4f0726dc24a9040cd2960c531c7447f17dfb6b49ec97bf9f7338369a820f817e
+odm                  1359872      1.297     4143104     2121269248  sim       ea58526de0cfac935a194e77943a7ba63d2010d7f843393a1a4a8dad4ff54164
+product           1817927680   1733.711     4147200     2123366400  sim       f605b6f133dd4be810b597de166eae435d441b035041b4ca8eb8bacd558d2471
+system_dlkm           348160      0.332     7698432     3941597184  sim       99c8d604ccc1a50af8e781c4d7f811ce097b06a63c18a210afacf7051c9c6bd2
+vendor            1215586304   1159.273     7700480     3942645760  sim       6fb6def9a23d1086ed79981c7f7e65532d264a58dfdeb4e13ce5d5d708271e48
+vendor_dlkm           348160      0.332    10076160     5158993920  sim       c90b5659358191d7c7e71043ac3df157446e65b32b2211e34f472e612bce5954

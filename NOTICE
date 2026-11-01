@@ -1,0 +1,12 @@
+super-repack
+Copyright 2026 XaulinXs Foundry
+
+Este projeto nao inclui codigo de terceiros. Em tempo de execucao ele chama
+ferramentas do Android Open Source Project (lpmake, lpunpack, simg2img),
+Copyright The Android Open Source Project, licenciadas sob a Apache License 2.0.
+Essas ferramentas NAO sao distribuidas neste repositorio: o usuario as fornece.
+
+O leitor de metadados LP embutido no script e uma implementacao independente do
+formato publico documentado no liblp do AOSP (metadata_format.h).
+
+Desenvolvido com a assistencia do Claude (Anthropic).

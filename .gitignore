@@ -1,0 +1,18 @@
+# imagens e pacotes gerados (grandes; nunca versionar)
+*.img
+*.img.lz4
+*.img.xz
+*.img.gz
+*.tar
+*.tar.md5
+# area de trabalho e logs do script
+super_work/
+parts/
+build/
+*.log
+.lpmap.py
+*.hashes
+# copias feitas na home pelo script
+og.img
+mod.img
+gsi.img

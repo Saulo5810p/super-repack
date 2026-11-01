@@ -1,0 +1,54 @@
+CAMPO                             ORIGINAL                REMONTADA               STATUS
+----------------------------------------------------------------------------------------------------------
+Metadata version                  10.0                    10.0                    IGUAL
+Metadata size (bytes)             744                     744                     IGUAL
+Metadata max size (bytes)         65536                   65536                   IGUAL
+Metadata slot count               2                       2                       IGUAL
+Header flags                      none                    none                    IGUAL
+Logical block size                4096                    4096                    IGUAL
+Super: nome                       super                   super                   IGUAL
+Super: primeiro setor             2048                    2048                    IGUAL
+Super: tamanho (bytes)            12582912000             12582912000             IGUAL
+Super: alinhamento (bytes)        1048576                 1048576                 IGUAL
+Super: deslocamento               0                       0                       IGUAL
+Super: flags                      none                    none                    IGUAL
+Grupos (nomes)                    default,group_basic     default,group_basic     IGUAL
+Grupo default: maximo (bytes)     0                       0                       IGUAL
+Grupo default: flags              none                    none                    IGUAL
+Grupo group_basic: maximo (bytes) 12578717696             12578717696             IGUAL
+Grupo group_basic: flags          none                    none                    IGUAL
+Particoes (ordem)                 system,odm,product,sys~ system,odm,product,sys~ IGUAL
+Regra de empacotamento do stock   alinhado+sequencial     -                       INFO
+system: grupo                     group_basic             group_basic             IGUAL
+system: atributos                 readonly                readonly                IGUAL
+system: tamanho (bytes)           6516895744              2119327744              ESPERADO (= GSI)
+system: setor inicial             2048                    2048                    IGUAL
+system: sha256                    964cb2adb9e3694a..      4f0726dc24a9040c..      ESPERADO (= GSI)
+odm: grupo                        group_basic             group_basic             IGUAL
+odm: atributos                    readonly                readonly                IGUAL
+odm: tamanho (bytes)              1359872                 1359872                 IGUAL
+odm: setor inicial                12730368                4143104                 ESPERADO (reposicionada)
+odm: sha256                       ea58526de0cfac93..      ea58526de0cfac93..      IGUAL
+product: grupo                    group_basic             group_basic             IGUAL
+product: atributos                readonly                readonly                IGUAL
+product: tamanho (bytes)          1817927680              1817927680              IGUAL
+product: setor inicial            12734464                4147200                 ESPERADO (reposicionada)
+product: sha256                   f605b6f133dd4be8..      f605b6f133dd4be8..      IGUAL
+system_dlkm: grupo                group_basic             group_basic             IGUAL
+system_dlkm: atributos            readonly                readonly                IGUAL
+system_dlkm: tamanho (bytes)      348160                  348160                  IGUAL
+system_dlkm: setor inicial        16285696                7698432                 ESPERADO (reposicionada)
+system_dlkm: sha256               99c8d604ccc1a50a..      99c8d604ccc1a50a..      IGUAL
+vendor: grupo                     group_basic             group_basic             IGUAL
+vendor: atributos                 readonly                readonly                IGUAL
+vendor: tamanho (bytes)           1215586304              1215586304              IGUAL
+vendor: setor inicial             16287744                7700480                 ESPERADO (reposicionada)
+vendor: sha256                    6fb6def9a23d1086..      6fb6def9a23d1086..      IGUAL
+vendor_dlkm: grupo                group_basic             group_basic             IGUAL
+vendor_dlkm: atributos            readonly                readonly                IGUAL
+vendor_dlkm: tamanho (bytes)      348160                  348160                  IGUAL
+vendor_dlkm: setor inicial        18663424                10076160                ESPERADO (reposicionada)
+vendor_dlkm: sha256               c90b5659358191d7..      c90b5659358191d7..      IGUAL
+----------------------------------------------------------------------------------------------------------
+
+OK! Faca o Flash
